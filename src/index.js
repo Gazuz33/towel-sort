@@ -1,8 +1,7 @@
-
 module.exports = function towelSort (matrix) {
-    if (matrix.length ! = 0) {
+    if ( matrix != 0 && matrix.length != 0) {
         let Arr = [];
-       for (var i = 0; i < matrix.length; i++) {
+      for (var i = 0; i < matrix.length; i++) {
           if ( i==0 || i % 2 == 0) {
               Arr = Arr.concat(matrix[i]);
           }
